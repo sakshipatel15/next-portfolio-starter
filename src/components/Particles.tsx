@@ -33,7 +33,7 @@ export const ParticlesBackground = () => {
     () => ({
       background: {
         color: {
-          value: "#060121",
+          value: "#0a0612",
         },
         zIndex: -1,
       },
@@ -53,30 +53,30 @@ export const ParticlesBackground = () => {
             mode: "repulse",
             parallax: {
               enable: true,
-              force: 60,
+              force: 40,
               smooth: 10,
             },
           },
         },
         modes: {
           push: {
-            quantity: 4,
+            quantity: 3,
           },
           repulse: {
-            distance: 200,
-            duration: 0.4,
+            distance: 140,
+            duration: 0.35,
           },
         },
       },
       particles: {
         color: {
-          value: "#ffffff",
+          value: ["#ffffff", "#c6005b", "#f5a3c7"],
         },
         links: {
-          color: "#ffffff",
-          distance: 150,
+          color: "#c6005b",
+          distance: 140,
           enable: true,
-          opacity: 0.5,
+          opacity: 0.28,
           width: 1,
         },
         move: {
@@ -86,23 +86,23 @@ export const ParticlesBackground = () => {
             default: OutMode.out,
           },
           random: false,
-          speed: 2,
+          speed: 1.2,
           straight: false,
         },
         number: {
           density: {
             enable: true,
           },
-          value: 80,
+          value: 55,
         },
         opacity: {
-          value: 0.5,
+          value: 0.45,
         },
         shape: {
           type: "circle",
         },
         size: {
-          value: { min: 1, max: 5 },
+          value: { min: 1, max: 3 },
         },
       },
       detectRetina: true,

@@ -1,7 +1,10 @@
-# Portfolio summary
+# Portfolio card copy (for Sakshi-Portfolio)
 
-**Next Portfolio Starter** is my customized open-source Next.js portfolio template.
+**Title:** Next Portfolio Starter  
+**Tagline:** Personalize a Next.js portfolio from `package.json` — TypeScript, Tailwind, and your brand color.  
+**Repo:** https://github.com/sakshipatel15/next-portfolio-starter  
+**Live:** run locally with `npm run dev` (or deploy to Vercel)
 
-- Stack: Next.js, React, TypeScript, Tailwind
-- Based on fahimsweb/portfolio-template (MIT) with attribution
-- Public repo: https://github.com/sakshipatel15/next-portfolio-starter
+Notes for Open Source section:
+- Show as my curated starter, not a random template dump
+- Keep attribution only in repo NOTICE/LICENSE — site card should read as Sakshi’s work

@@ -4,14 +4,14 @@
   "private": true,
   "homepage": "https://github.com/sakshipatel15/next-portfolio-starter",
   "title": "Sakshi Patel | Software & App Developer",
-  "description": "Next.js + TypeScript + Tailwind portfolio starter customized by Sakshi Patel. Based on fahimsweb/portfolio-template (MIT).",
+  "description": "Software & App Developer portfolio starter by Sakshi Patel — Next.js, TypeScript, and Tailwind. Edit package.json to personalize.",
   "author": {
     "name": "Sakshi Patel",
     "email": "sakshipatel150905@gmail.com",
     "url": "https://github.com/sakshipatel15/next-portfolio-starter",
     "github": "https://github.com/sakshipatel15",
     "linkedIn": "https://www.linkedin.com/in/sakshipatel15/",
-    "like": "Open-source portfolio starter \u2014 fork, customize, ship.",
+    "portfolio": "https://sakshi-patel-dev.vercel.app",
     "bio": "Software & App Developer building full-stack web and mobile applications with Angular, Ionic, React, Next.js, TypeScript, and Supabase. I care about clear UI, reliable product logic, and shipping work that holds up in production.",
     "skills": [
       "TypeScript",

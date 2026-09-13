@@ -5,7 +5,9 @@ import { ParticlesBackground } from "../components/Particles";
 
 export const metadata: Metadata = {
   title: packageJson.title,
-  description: packageJson.description,
+  description:
+    "Software & App Developer portfolio starter by Sakshi Patel — Next.js, TypeScript, and Tailwind.",
+  authors: [{ name: packageJson.author.name, url: packageJson.author.github }],
 };
 
 export default function RootLayout({
@@ -15,7 +17,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`bg-custom antialiased`}>
+      <body className="bg-custom antialiased">
         <ParticlesBackground />
         {children}
       </body>

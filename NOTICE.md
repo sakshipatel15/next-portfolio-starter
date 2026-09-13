@@ -1,19 +1,10 @@
-# Notice
+# NOTICE
 
-This repository is a customized derivative of:
+This project includes code originally from:
 
 **portfolio-template**  
 https://github.com/fahimsweb/portfolio-template  
 Original author: Fahim Mohammed  
 License: MIT
 
-## Customized by
-Sakshi Patel (2026)  
-https://github.com/sakshipatel15/next-portfolio-starter
-
-## Changes
-- Rebranded project metadata and author profile
-- Updated README and portfolio-facing documentation
-- Prepared public GitHub repo under sakshipatel15
-
-Original MIT license terms remain in `LICENSE`.
+Sakshi Patel customized the starter for her stack, branding (`#c6005b`), content, skill icons, and UI structure. See `LICENSE` for the MIT terms that still apply.

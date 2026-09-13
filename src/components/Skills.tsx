@@ -1,30 +1,26 @@
-// components/SkillsSection.js
-
 import { mappedSkills } from "@/constants";
 
 export default function Skills() {
   return (
-    <>
-      <h2 className="z-10 flex w-full items-center justify-center">
-        <span className="rounded bg-blue-600 p-3 text-2xl text-white dark:bg-blue-500">
-          Expertise
-        </span>
+    <section className="z-10 flex w-full max-w-3xl flex-col items-center gap-6 px-4 pb-10">
+      <h2 className="rounded-full bg-[var(--brand)] px-5 py-2 text-sm font-semibold uppercase tracking-[0.14em] text-white">
+        Skills
       </h2>
-      <div className="flex w-full flex-col items-center justify-center space-x-0 bg-transparent p-4 md:flex-row md:space-x-8 md:p-8">
+      <div className="flex w-full flex-wrap items-center justify-center gap-6 md:gap-8">
         {mappedSkills.map((skill) => (
           <div
             key={skill.name}
-            className="group flex cursor-pointer flex-col items-center transition-transform duration-300"
+            className="group flex cursor-default flex-col items-center"
           >
-            <div className="mb-2 transform text-3xl transition-transform duration-300 group-hover:scale-125">
+            <div className="mb-2 text-3xl text-white/90 transition duration-300 group-hover:scale-110 group-hover:text-[var(--brand)]">
               {skill.icon}
             </div>
-            <span className="transform text-lg text-white opacity-0 transition-opacity transition-transform duration-300 group-hover:scale-125 group-hover:opacity-100">
+            <span className="text-xs text-white/65 sm:text-sm">
               {skill.name}
             </span>
           </div>
         ))}
       </div>
-    </>
+    </section>
   );
 }
