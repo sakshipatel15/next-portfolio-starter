@@ -1,0 +1,17 @@
+{
+  "extends": [
+    "next",
+    "next/typescript",
+    "plugin:@next/next/recommended",
+    "next/core-web-vitals",
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:@typescript-eslint/recommended",
+    "prettier",
+    "plugin:react/jsx-runtime"
+  ],
+  "plugins": ["react", "prettier", "@typescript-eslint"],
+  "rules": {
+    "prettier/prettier": ["error"]
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "name": "next-portfolio-starter",
+  "version": "0.2.1",
+  "private": true,
+  "homepage": "https://github.com/sakshipatel15/next-portfolio-starter",
+  "title": "Sakshi Patel | Software & App Developer",
+  "description": "Next.js + TypeScript + Tailwind portfolio starter customized by Sakshi Patel. Based on fahimsweb/portfolio-template (MIT).",
+  "author": {
+    "name": "Sakshi Patel",
+    "email": "sakshipatel150905@gmail.com",
+    "url": "https://github.com/sakshipatel15/next-portfolio-starter",
+    "github": "https://github.com/sakshipatel15",
+    "linkedIn": "https://www.linkedin.com/in/sakshipatel15/",
+    "like": "Open-source portfolio starter \u2014 fork, customize, ship.",
+    "bio": "Software & App Developer building full-stack web and mobile applications with Angular, Ionic, React, Next.js, TypeScript, and Supabase. I care about clear UI, reliable product logic, and shipping work that holds up in production.",
+    "skills": [
+      "TypeScript",
+      "JavaScript",
+      "Angular",
+      "Ionic",
+      "React",
+      "Next.js",
+      "React Native",
+      "Tailwind CSS",
+      "Supabase",
+      "Firebase",
+      "Node.js",
+      "HTML",
+      "CSS",
+      "Git"
+    ]
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d out",
+    "clean-check": "prettier --c \"**/*.{js,jsx,ts,tsx,md,json,cjs,mjs}\" ",
+    "clean": "prettier  --log-level warn --write \"**/*.{js,jsx,ts,tsx,md,json,cjs,mjs}\" ",
+    "lint-check": "eslint ./src --ext .js,.jsx,.ts,.tsx --report-unused-disable-directives --max-warnings 0",
+    "lint": "eslint ./src --ext .js,.jsx,.ts,.tsx --fix"
+  },
+  "dependencies": {
+    "@tsparticles/engine": "^3.5.0",
+    "@tsparticles/react": "^3.0.0",
+    "@tsparticles/slim": "^3.5.0",
+    "next": "14.2.13",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-icons": "^5.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8.57.1",
+    "eslint-config-next": "14.2.13",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "eslint-plugin-react": "^7.36.1",
+    "gh-pages": "^6.1.1",
+    "postcss": "^8",
+    "prettier": "^3.3.3",
+    "prettier-plugin-tailwindcss": "^0.6.6",
+    "tailwindcss": "^3.4.1",
+    "typescript": "5.5.4"
+  }
+}

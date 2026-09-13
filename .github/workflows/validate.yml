@@ -1,0 +1,30 @@
+name: Check Lint and Sentantic Title Pull Request
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+    branches:
+      - main
+
+jobs:
+  lint:
+    name: Lint Check
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 18
+          cache: "npm"
+      - run: npm install
+      - run: npm run lint-check
+  prettify:
+    name: Prettify Check
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 18
+          cache: "npm"
+      - run: npm install
+      - run: npm run clean-check
